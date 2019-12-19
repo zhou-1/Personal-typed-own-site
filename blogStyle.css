@@ -1,0 +1,131 @@
+/* Montserrat:300,400,700 light, normal, bold
+Open Sans:400,700 */
+
+body {
+	background: #F6F6F6;
+}
+
+h1	{
+	color: rgba(255,215,0, 0.85);
+	font-family: Montserrat; /* From Google Font */
+	font-weight: 700;
+	background: rgba(0, 0, 0, 1.0);
+	text-align: center;
+
+	border: 2px solid rgba(255, 0, 0, 0.4);
+}
+h1:hover {
+	color: rgba(255,215,0, 1.0);
+	text-transform: uppercase;
+}
+
+h2 {
+	color: rgba(255,165,0, 1.0);
+	font-family: Montserrat; /* From Google Font */
+	font-weight: 700;
+	text-align: center;
+	border-bottom: 5px solid #f1f1f1;
+}
+
+p {
+	font-family: Open Sans; /* From Google Font */
+	text-align: center;
+}
+
+/* ID */
+#introMe {
+	/*text-align: left;*/
+}
+#introMe:first-letter{
+	font-size: 2.0em;
+}
+
+#feedbackBox {
+	display: block;
+	margin-left: auto; /* center */
+    margin-right: auto;
+
+	width: 40%;
+	height: 100px;
+}
+
+#feedbackEmail {
+	width: 200px;
+	height: 18px;
+}
+
+#contact {
+	
+}
+
+#contactBox {
+	width: 200px;
+	height: 18px;
+}
+
+/* class */
+.projectsIntro {
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+
+	text-align: center;
+	border-bottom: 3px solid #f1f1f1;
+	width: 45%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+.projectsIntro:hover {
+	font-weight: 700;
+}
+.projectsImg{
+	width: 50%;
+	height: auto;
+
+	margin-left: 25%;
+	/*margin-right: 4.85%;*/
+	margin-bottom: 2%;
+}
+
+.interestList {
+	font: 200 14px;
+	font-family: Open Sans; /* From Google Font */
+
+	text-align: center;
+}
+.interestList ul {
+	display: inline;
+}
+
+.aStudentQ {
+	text-align: center;
+}
+
+.feedbacksub{
+	text-align: center;
+}
+
+.contactDiv{
+	text-align: center;
+}
+
+/* links */
+a {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 125%;
+  	text-decoration: underline;
+}
+a:active {
+	color: gold;
+  	text-decoration: underline;
+}
+
+/*
+a:visited {
+	color: #551A8B;
+}
+*/
